@@ -55,7 +55,7 @@ export default {
   },
   computed: {
     isShowJob() {
-      return this.$store.getters.language === 'zh'
+      return this.$store.getters.language === 'en'
     },
     fixedHeader: {
       get() {
